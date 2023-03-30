@@ -19,6 +19,8 @@ describe('index.js', function () {
     });
   });
 
+
+  
   describe('ternaryCheckCity()', function () {
     it('returns "Ok, sounds good." when the city is NYC', function () {
       expect(ternaryCheckCity('NYC')).to.equal('Ok, sounds good.');
